@@ -1,2 +1,1 @@
-# nuclearguard-ai
-AI-powered reactor monitoring prototype for anomaly detection, predictive maintenance, risk assessment, and intelligent incident reporting.
+NuclearGuard AI is an AI-assisted reactor monitoring prototype designed to detect abnormal sensor behavior, forecast operating conditions, estimate component failure risk, and generate incident reports.
