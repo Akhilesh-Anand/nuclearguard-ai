@@ -8,10 +8,10 @@ What it does
 
 NuclearGuard AI spins up a fake nuclear plant, streams "sensor readings" (temperature, pressure, neutron flux, coolant flow, vibration, radiation), and runs four different models over that data to figure out if something's wrong:
 
-🔍 Anomaly Detection — an Isolation Forest flags sensor readings that look statistically off
-🛠️ Predictive Maintenance — a Random Forest estimates failure probability for five key components (Coolant Pump, Steam Generator, Turbine, Reactor Valve, Heat Exchanger)
-📈 Temperature Forecasting — an LSTM predicts the next 10 temperature readings and flags whether a critical threshold is coming up
-📋 AI Incident Reports — a local LLM (via Ollama, using mistral) writes a short, readable incident report summarizing current plant status
+ Anomaly Detection — an Isolation Forest flags sensor readings that look statistically off
+ Predictive Maintenance — a Random Forest estimates failure probability for five key components (Coolant Pump, Steam Generator, Turbine, Reactor Valve, Heat Exchanger)
+ Temperature Forecasting — an LSTM predicts the next 10 temperature readings and flags whether a critical threshold is coming up
+ AI Incident Reports — a local LLM (via Ollama, using mistral) writes a short, readable incident report summarizing current plant status
 
 There's also a rolling alert log, an overall risk score (0–100) that blends all of the above, and a "Simulate Anomaly" toggle so you can watch the system react to a spike in bad readings.
 
